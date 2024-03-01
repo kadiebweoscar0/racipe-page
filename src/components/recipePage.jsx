@@ -1,6 +1,11 @@
-
-export default function recipePage() {
+import imgOmelette from "./images/image-omelette.jpeg"
+export default function RecipePage() {
   return (
-    <div>recipePage</div>
+    <>
+    recipePage
+    <figure>
+        <img src={imgOmelette} alt="image omelette" />
+    </figure>
+    </>
   )
 }
