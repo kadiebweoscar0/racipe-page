@@ -1,5 +1,5 @@
 
-export default function preparationTime() {
+export default function PreparationTime() {
   return (
     <div>
         <h3>preparationTime</h3>

@@ -1,5 +1,5 @@
 
-export default function instructions() {
+export default function Instructions() {
   return (
     <div>
       <h3>instructions</h3>

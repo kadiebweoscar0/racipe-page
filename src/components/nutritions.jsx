@@ -1,5 +1,5 @@
 
-export default function nutritions() {
+export default function Nutritions() {
   return (
     <div>
       <h3>nutritions</h3>
