@@ -2,7 +2,7 @@
 export default function Instructions() {
   return (
     <div>
-      <h3>instructions</h3>
+      <h3>Instructions</h3>
       <ol>
         <li><b>Beat the eggs:</b> in a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a flutter texture.</li>
         <li><b>Heat the pan:</b> Placea ran-stick frying pan over medium heat and add butter or oil.</li>

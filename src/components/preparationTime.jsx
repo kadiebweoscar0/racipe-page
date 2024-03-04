@@ -1,12 +1,12 @@
 
 export default function PreparationTime() {
   return (
-    <div>
-        <h3>preparationTime</h3>
+    <div className="preparation-time">
+        <h3>PreparationTime</h3>
         <ul>
-          <li><span>Total:</span> approximately 10 minutes</li>
-          <li><span>Preparation:</span> 5 minutes</li>
-          <li><span>Cooking:</span> 5 minutes</li>
+          <li><b>Total:</b> approximately 10 minutes</li>
+          <li><b>Preparation:</b> 5 minutes</li>
+          <li><b>Cooking:</b> 5 minutes</li>
         </ul>
     </div>
   )

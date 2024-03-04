@@ -2,26 +2,26 @@
 export default function Nutritions() {
   return (
     <div>
-      <h3>nutritions</h3>
+      <h3>Nutritions</h3>
       <p>The table below shows nutritional valuess per serving without the additional fillings.</p>
       <span>
         <p>Calories</p>
-        <p>277kcal</p>
+        <b>277kcal</b>
       </span>
 
       <span>
         <p>Carbs</p>
-        <p>0g</p>
+        <b>0g</b>
       </span>
 
       <span>
         <p>Protein</p>
-        <p>20g</p>
+        <b>20g</b>
       </span>
 
       <span>
         <p>Fat</p>
-        <p>22g</p>
+        <b>22g</b>
       </span>
     </div>
   )

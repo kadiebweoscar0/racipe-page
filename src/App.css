@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding-top: 100px;
+    
+    font-style: normal;
+}
+
+h1,h3{
+    font-family: "Young Serif", serif;
+}
+
+h1{
+    font-size: 42px;
+}
+
+p,li{
+    font-family: "Outfit", sans-serif;
+    /* color: hsl(30, 18%, 87%); */
+}
+
+li{
+    /* margin-left: 10px; */
+}
+
+.recipe{
+    background-color: hsl(0, 0%, 100%);
+    padding: 35px;
+    margin: auto;
+    width: 700px;
+    border-radius: 24px;
+}
+
+.recipe ul,ol{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.preparation-time li{
+    font-size: 16px;
+}
