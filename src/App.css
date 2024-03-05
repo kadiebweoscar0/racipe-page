@@ -4,7 +4,7 @@
 body{
     background-color: hsl(30, 54%, 90%);
     padding-top: 100px;
-    
+    line-height: 1.5;
     font-style: normal;
 }
 
@@ -16,20 +16,24 @@ h1{
     font-size: 42px;
 }
 
+h3{
+    color: hsl(14, 45%, 36%);
+}
+
 p,li{
     font-family: "Outfit", sans-serif;
     /* color: hsl(30, 18%, 87%); */
 }
 
-li{
-    /* margin-left: 10px; */
+p{
+    font-size: 16px;
 }
 
 .recipe{
     background-color: hsl(0, 0%, 100%);
     padding: 35px;
     margin: auto;
-    width: 700px;
+    width: 650px;
     border-radius: 24px;
 }
 
@@ -46,8 +50,20 @@ img{
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
     border-radius: 15px;
+
 }
 
-.preparation-time li{
-    font-size: 16px;
+.preparation-time li,h3{
+    padding-left: 10px;
+}
+
+.preparation-time h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.flex{
+    display: flex;
+    gap: 25%;
+    /* justify-content:space-around; */
+    align-items:center;
 }
