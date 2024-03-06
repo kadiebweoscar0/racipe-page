@@ -4,8 +4,9 @@
 body{
     background-color: hsl(30, 54%, 90%);
     padding-top: 100px;
-    line-height: 1.5;
+    line-height: 2;
     font-style: normal;
+    
 }
 
 h1,h3{
@@ -33,7 +34,7 @@ p{
     background-color: hsl(0, 0%, 100%);
     padding: 35px;
     margin: auto;
-    width: 650px;
+    width: 50%;
     border-radius: 24px;
 }
 
@@ -63,7 +64,72 @@ img{
 
 .flex{
     display: flex;
-    gap: 25%;
+    gap: 20%;
     /* justify-content:space-around; */
     align-items:center;
+}
+
+.flex b{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+span{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+span:last-child{
+    border: none;
+}
+
+.flex p,b{
+    width: 30%;
+    /* background-color: blue; */
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+li{
+    padding-left: 10px;
+}
+
+.instructions-style,.preparation-time,.ingredients-style{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .recipe{
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img{
+        border-radius: 0px;
+    }
+
+    .preparation-time h3{
+      font-size: 20px;
+    }
+
+    .instructions-style,.preparation-time, .nutritions-style,.ingredients-style,h1,.text-detail{
+        padding: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 1;
+    }
+    h3{
+        font-size: 30px;
+    }
 }

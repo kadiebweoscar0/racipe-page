@@ -1,7 +1,7 @@
 
 export default function Nutritions() {
   return (
-    <div>
+    <div className="nutritions-style">
       <h3>Nutritions</h3>
       <p>The table below shows nutritional valuess per serving without the additional fillings.</p>
       <span className="flex">

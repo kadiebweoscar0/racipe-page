@@ -1,6 +1,6 @@
 export default function Ingredients() {
   return (
-    <div>
+    <div className="ingredients-style">
       <h3>Ingredients</h3>
       <ul>
         <li>2-3 large eggs</li>

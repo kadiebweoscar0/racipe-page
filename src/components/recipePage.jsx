@@ -8,7 +8,7 @@ export default function RecipePage() {
     <section className="recipe">
       <img src={imgOmelette} alt="image omelette" />
       <h1>Simple Omelette Recipe</h1>
-      <p>An easy and quick dish, perfect for ony meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      <p className="text-detail">An easy and quick dish, perfect for ony meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
       <PreparationTime />
       <Ingredients />
       <Instructions />
